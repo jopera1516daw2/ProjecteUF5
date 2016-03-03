@@ -59,6 +59,7 @@ public class Juego extends Application {
     /**
     * mètode que correspon a la escena inicial i llença la excepcio personalitzada
     * agafa les dades del fxml i del controler corresponent
+     * @throws zoologic.ExcepcionPers
     */
     public void escena0() throws ExcepcionPers {
         try {
