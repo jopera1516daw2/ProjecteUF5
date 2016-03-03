@@ -1,0 +1,132 @@
+root {
+    -fx-background-size: cover;
+    -fx-height:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#root2{
+    -fx-background-color: rgb(255,255,255,0.8);
+    -fx-background-size: cover;
+    -fx-height:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#roottienda{
+    -fx-background-color: rgb(255,255,255,0.8);
+    -fx-background-size: cover;
+    -fx-height:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#roottiendad{
+    -fx-background-color: rgb(255,255,255,0.8);
+    -fx-background-size: cover;
+    -fx-height:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#rootdj{
+    -fx-background-color: rgb(255,255,255,0.5);
+    -fx-background-size: cover;
+    -fx-height:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+ 
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+ 
+#welcome-text {
+   -fx-font-size: 32px;
+   -fx-font-family: "Arial Black";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+#actiontarget {
+  -fx-fill: FIREBRICK;
+  -fx-font-weight: bold;
+  -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );  
+}
+ 
+//BOTONES
+
+#nuevapartida {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient( #79C95C, #599543);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+#nuevapartida:hover {
+    -fx-background-color: linear-gradient( #A5ED8B, #8ECA79);
+    -fx-opacity:1;
+}
+
+#salir {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient( #79C95C, #599543);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+#salir:hover {
+    -fx-background-color: linear-gradient( #A5ED8B, #8ECA79);
+    -fx-opacity:1;
+}
+
+#empezar {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient( #79C95C, #599543);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+#empezar:hover {
+    -fx-background-color: linear-gradient( #A5ED8B, #8ECA79);
+    -fx-opacity:1;
+}
+
+#cancelar {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient( #79C95C, #599543);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+#cancelar:hover {
+    -fx-background-color: linear-gradient( #A5ED8B, #8ECA79);
+    -fx-opacity:1;
+}
+
+#acuatico:hover {
+    -fx-background-color: linear-gradient( #61210B, #8A2908);
+    -fx-opacity:0.2;
+}
+
+#volador:hover {
+    -fx-background-color: linear-gradient( #61210B, #8A2908);
+    -fx-opacity:0.2;
+}
+
+#terrestre:hover {
+    -fx-background-color: linear-gradient( #61210B, #8A2908);
+    -fx-opacity:0.1;
+}
+
+#tienda:hover {
+    -fx-background-color: linear-gradient( #61210B, #8A2908);
+    -fx-opacity:0.1;
+}

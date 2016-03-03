@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane id="AnchorPane" prefHeight="487.0" prefWidth="779.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zoologic.Escena3Controller">
+    <children>
+      <GridPane id="rootdj" alignment="CENTER" hgap="10.0" layoutX="235.0" layoutY="72.0" prefHeight="347.0" prefWidth="347.0" vgap="10.0">
+         <padding>
+            <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+         </padding>
+         <children>
+            <Label text="Nombre" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <TextField fx:id="datosnombre" prefHeight="26.0" prefWidth="127.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label prefHeight="24.0" prefWidth="30.0" text="Edat" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <TextField fx:id="datosedat" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label layoutX="35.0" layoutY="84.0" prefHeight="25.0" prefWidth="29.0" text="Sexo" GridPane.rowIndex="3" />
+            <TextField fx:id="datossexo" layoutX="89.0" layoutY="80.0" prefHeight="25.0" prefWidth="70.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label layoutX="35.0" layoutY="84.0" prefHeight="25.0" prefWidth="41.0" text="Dinero" GridPane.rowIndex="4" />
+            <TextField fx:id="datosdinero" layoutX="89.0" layoutY="80.0" prefHeight="25.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <HBox alignment="BOTTOM_RIGHT" spacing="10.0" GridPane.columnIndex="1" GridPane.rowIndex="10">
+               <children>
+                  <Button onAction="#volverjuego" text="Volver al juego" />
+               </children>
+            </HBox>
+            <Label layoutX="35.0" layoutY="150.0" prefHeight="25.0" prefWidth="109.0" text="Animales Terrestres" GridPane.rowIndex="5" />
+            <TextField fx:id="terrestres" layoutX="89.0" layoutY="150.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label layoutX="35.0" layoutY="185.0" prefHeight="25.0" prefWidth="109.0" text="Animales Acuáticos" GridPane.rowIndex="6" />
+            <TextField fx:id="acuaticos" layoutX="154.0" layoutY="185.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Label layoutX="35.0" layoutY="220.0" prefHeight="25.0" prefWidth="109.0" text="Animales Voladores" GridPane.rowIndex="7" />
+            <TextField fx:id="voladores" layoutX="154.0" layoutY="220.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+         </children>
+         <columnConstraints>
+            <ColumnConstraints maxWidth="166.0" minWidth="114.0" prefWidth="163.0" />
+            <ColumnConstraints maxWidth="144.0" minWidth="92.0" prefWidth="95.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
+      </GridPane>
+    </children>
+</AnchorPane>

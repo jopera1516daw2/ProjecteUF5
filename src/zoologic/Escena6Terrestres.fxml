@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="480.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zoologic.Escena6Controller">
+    <children>
+      <ImageView fitHeight="533.0" fitWidth="779.0" layoutX="-32.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+              <Image url="@img/fondoterrestre.jpg" />
+           </image>
+        </ImageView>
+         <Button layoutX="342.0" layoutY="419.0" onAction="#volvermapa" text="Volver al mapa" />
+      <ImageView fx:id="leon1" fitHeight="96.0" fitWidth="108.0" layoutX="583.0" layoutY="289.0" onMouseClicked="#datosleon1" pickOnBounds="true"  visible="false">
+         <image>
+            <Image url="@img/animales/leon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="leon2" fitHeight="96.0" fitWidth="108.0" layoutX="568.0" layoutY="201.0" onMouseClicked="#datosleon2" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/leon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="leon3" fitHeight="96.0" fitWidth="108.0" layoutX="651.0" layoutY="379.0" onMouseClicked="#datosleon3" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/leon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="leon4" fitHeight="96.0" fitWidth="108.0" layoutX="651.0" layoutY="273.0" onMouseClicked="#datosleon4" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/leon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="leon5" fitHeight="96.0" fitWidth="108.0" layoutX="637.0" layoutY="201.0" onMouseClicked="#datosleon5" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/leon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="elefante3" fitHeight="112.0" fitWidth="204.0" layoutX="395.0" layoutY="193.0" onMouseClicked="#datoselefante3" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/elefante.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="elefante4" fitHeight="112.0" fitWidth="204.0" layoutX="32.0" layoutY="217.0" onMouseClicked="#datoselefante4" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/elefante.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="elefante1" fitHeight="112.0" fitWidth="204.0" layoutX="-28.0" layoutY="265.0" onMouseClicked="#datoselefante1" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/elefante.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="elefante5" fitHeight="112.0" fitWidth="204.0" layoutX="418.0" layoutY="297.0" onMouseClicked="#datoselefante5" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/elefante.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mono1" fitHeight="96.0" fitWidth="83.0" layoutX="311.0" layoutY="63.0" onMouseClicked="#datosmono1" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/mono.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="elefante2" fitHeight="112.0" fitWidth="204.0" layoutX="437.0" layoutY="363.0" onMouseClicked="#datoselefante2" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@img/animales/elefante.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mono2" fitHeight="96.0" fitWidth="83.0" layoutX="311.0" layoutY="325.0" onMouseClicked="#datosmono2" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/mono.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mono3" fitHeight="96.0" fitWidth="83.0" layoutX="62.0" layoutY="344.0" onMouseClicked="#datosmono3" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/mono.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mono4" fitHeight="96.0" fitWidth="83.0" layoutX="170.0" layoutY="403.0" onMouseClicked="#datosmono4" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/mono.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mono5" fitHeight="96.0" fitWidth="83.0" layoutX="235.0" layoutY="344.0" onMouseClicked="#datosmono5" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/mono.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="480.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zoologic.Escena4Controller">
+    <children>
+      <ImageView fitHeight="533.0" fitWidth="768.0" layoutX="-32.0" pickOnBounds="true">
+           <image>
+              <Image url="@img/fondoacuatico.jpg" />
+           </image>
+        </ImageView>
+         <Button layoutX="342.0" layoutY="419.0" onAction="#volvermapa" text="Volver al mapa" />
+      <ImageView fx:id="delfin1" fitHeight="110.0" fitWidth="118.0" layoutX="46.0" layoutY="27.0" onMouseClicked="#datosdelfin1" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/delfin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="delfin2" fitHeight="110.0" fitWidth="118.0" layoutX="367.0" layoutY="27.0" onMouseClicked="#datosdelfin2" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/delfin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="delfin3" fitHeight="110.0" fitWidth="118.0" layoutX="219.0" layoutY="78.0" onMouseClicked="#datosdelfin3" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/delfin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="delfin4" fitHeight="110.0" fitWidth="118.0" layoutX="438.0" layoutY="100.0" onMouseClicked="#datosdelfin4" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/delfin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="delfin5" fitHeight="110.0" fitWidth="118.0" layoutX="574.0" layoutY="42.0" onMouseClicked="#datosdelfin5" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/delfin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tiburon1" fitHeight="63.0" fitWidth="140.0" layoutX="17.0" layoutY="240.0" onMouseClicked="#datostiburon1" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/tiburon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tiburon2" fitHeight="63.0" fitWidth="140.0" layoutX="105.0" layoutY="186.0" onMouseClicked="#datostiburon2" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/tiburon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tiburon3" fitHeight="63.0" fitWidth="140.0" layoutX="298.0" layoutY="240.0" onMouseClicked="#datostiburon3" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/tiburon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tiburon4" fitHeight="63.0" fitWidth="140.0" layoutX="470.0" layoutY="233.0" onMouseClicked="#datostiburon4" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/tiburon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tiburon5" fitHeight="63.0" fitWidth="140.0" layoutX="258.0" layoutY="171.0" onMouseClicked="#datostiburon5" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/tiburon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tortuga1" fitHeight="63.0" fitWidth="140.0" layoutX="78.0" layoutY="400.0" onMouseClicked="#datostortuga1" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/tortuga.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tortuga2" fitHeight="63.0" fitWidth="140.0" layoutX="192.0" layoutY="326.0" onMouseClicked="#datostortuga2" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/tortuga.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tortuga3" fitHeight="63.0" fitWidth="140.0" layoutX="487.0" layoutY="400.0" onMouseClicked="#datostortuga3" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/tortuga.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tortuga4" fitHeight="63.0" fitWidth="140.0" layoutX="580.0" layoutY="141.0" onMouseClicked="#datostortuga4" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/tortuga.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tortuga5" fitHeight="63.0" fitWidth="140.0" layoutX="593.0" layoutY="312.0" onMouseClicked="#datostortuga5" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@img/animales/tortuga.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
