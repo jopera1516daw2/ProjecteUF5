@@ -15,7 +15,7 @@ public class Jugador {
     private String nombre;
     private String edat;
     private String sexo;
-    private int dinero=50000;
+    private int dinero=500;
     private int leones=0;
     private int monos=0;
     private int elefantes=0;

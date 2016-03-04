@@ -249,7 +249,25 @@ public class Juego extends Application {
             {
                 public void run()
                 {
-                    Jugando.setDinero(Jugando.getDinero()+(int)(Math.random()*5+1));
+                    if(Jugando.getAnimales()<=5){
+                        Jugando.setDinero(Jugando.getDinero()+(int)(Math.random()*5+1));
+                        
+                    }else if(Jugando.getAnimales()>5 && Jugando.getAnimales()<=10){
+                        Jugando.setDinero(Jugando.getDinero()+(int)(Math.random()*10+1));
+                        
+                    }else if(Jugando.getAnimales()>10 && Jugando.getAnimales()<=15){
+                        Jugando.setDinero(Jugando.getDinero()+(int)(Math.random()*15+1));
+                        
+                    }else if(Jugando.getAnimales()>5 && Jugando.getAnimales()<=20){
+                        Jugando.setDinero(Jugando.getDinero()+(int)(Math.random()*20+1));
+                        
+                    }else if(Jugando.getAnimales()>5 && Jugando.getAnimales()<=30){
+                        Jugando.setDinero(Jugando.getDinero()+(int)(Math.random()*35+1));
+                        
+                    }else if(Jugando.getAnimales()>5 && Jugando.getAnimales()<=40){
+                        Jugando.setDinero(Jugando.getDinero()+(int)(Math.random()*50+1));
+                        
+                    }
                 }
             }, 0, 4000);
     }

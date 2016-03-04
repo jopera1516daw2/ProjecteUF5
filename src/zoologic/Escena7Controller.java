@@ -298,8 +298,8 @@ public class Escena7Controller implements Initializable{
     @FXML
     private void comprarleon(ActionEvent event) {
         Jugador Jugando = Jugador.getInstance();    
-        if(Jugando.getDinero()>=100 && Jugando.getLeones()<5){
-            Jugando.setDinero(Jugando.getDinero()-100);
+        if(Jugando.getDinero()>=600 && Jugando.getLeones()<5){
+            Jugando.setDinero(Jugando.getDinero()-600);
             Jugando.setLeones(Jugando.getLeones()+1);
             moneytienda.setText(Integer.toString((int) Jugando.getDinero()));            
             switch(Jugando.getLeones()){
@@ -327,8 +327,8 @@ public class Escena7Controller implements Initializable{
     @FXML
     private void comprarelefante(ActionEvent event) {
         Jugador Jugando = Jugador.getInstance();    
-        if(Jugando.getDinero()>=100 && Jugando.getElefantes()<5){
-            Jugando.setDinero(Jugando.getDinero()-100);
+        if(Jugando.getDinero()>=800 && Jugando.getElefantes()<5){
+            Jugando.setDinero(Jugando.getDinero()-800);
             Jugando.setElefantes(Jugando.getElefantes()+1);
             moneytienda.setText(Integer.toString((int) Jugando.getDinero()));
             switch(Jugando.getElefantes()){
@@ -356,8 +356,8 @@ public class Escena7Controller implements Initializable{
     @FXML
     private void comprarmono(ActionEvent event) {
         Jugador Jugando = Jugador.getInstance();    
-        if(Jugando.getDinero()>=100 && Jugando.getMonos()<5){
-            Jugando.setDinero(Jugando.getDinero()-100);
+        if(Jugando.getDinero()>=250 && Jugando.getMonos()<5){
+            Jugando.setDinero(Jugando.getDinero()-250);
             Jugando.setMonos(Jugando.getMonos()+1);
             moneytienda.setText(Integer.toString((int) Jugando.getDinero()));
             switch(Jugando.getMonos()){
@@ -385,8 +385,8 @@ public class Escena7Controller implements Initializable{
     @FXML
     private void comprarloro(ActionEvent event) {
         Jugador Jugando = Jugador.getInstance();    
-        if(Jugando.getDinero()>=100 && Jugando.getLoros()<5){
-            Jugando.setDinero(Jugando.getDinero()-100);
+        if(Jugando.getDinero()>=125 && Jugando.getLoros()<5){
+            Jugando.setDinero(Jugando.getDinero()-125);
             Jugando.setLoros(Jugando.getLoros()+1);
             moneytienda.setText(Integer.toString((int) Jugando.getDinero()));
             switch(Jugando.getLoros()){
@@ -414,8 +414,8 @@ public class Escena7Controller implements Initializable{
     @FXML
     private void comprarpelicano(ActionEvent event) {
         Jugador Jugando = Jugador.getInstance();    
-        if(Jugando.getDinero()>=100 && Jugando.getPelicanos()<5){
-            Jugando.setDinero(Jugando.getDinero()-100);
+        if(Jugando.getDinero()>=200 && Jugando.getPelicanos()<5){
+            Jugando.setDinero(Jugando.getDinero()-200);
             Jugando.setPelicanos(Jugando.getPelicanos()+1);
             moneytienda.setText(Integer.toString((int) Jugando.getDinero()));
             switch(Jugando.getPelicanos()){
@@ -443,8 +443,8 @@ public class Escena7Controller implements Initializable{
     @FXML
     private void comprarbuitre(ActionEvent event) {
         Jugador Jugando = Jugador.getInstance();    
-        if(Jugando.getDinero()>=100 && Jugando.getBuitres()<5){
-            Jugando.setDinero(Jugando.getDinero()-100);
+        if(Jugando.getDinero()>=350 && Jugando.getBuitres()<5){
+            Jugando.setDinero(Jugando.getDinero()-350);
             Jugando.setBuitres(Jugando.getBuitres()+1);
             moneytienda.setText(Integer.toString((int) Jugando.getDinero()));
             switch(Jugando.getBuitres()){
@@ -472,8 +472,8 @@ public class Escena7Controller implements Initializable{
     @FXML
     private void comprardelfin(ActionEvent event) {
         Jugador Jugando = Jugador.getInstance();    
-        if(Jugando.getDinero()>=100 && Jugando.getDelfines()<5){
-            Jugando.setDinero(Jugando.getDinero()-100);
+        if(Jugando.getDinero()>=500 && Jugando.getDelfines()<5){
+            Jugando.setDinero(Jugando.getDinero()-500);
             Jugando.setDelfines(Jugando.getDelfines()+1);
             moneytienda.setText(Integer.toString((int) Jugando.getDinero()));
             switch(Jugando.getDelfines()){
@@ -501,8 +501,8 @@ public class Escena7Controller implements Initializable{
     @FXML
     private void comprartiburon(ActionEvent event) {
         Jugador Jugando = Jugador.getInstance();    
-        if(Jugando.getDinero()>=100 && Jugando.getTiburones()<5){
-            Jugando.setDinero(Jugando.getDinero()-100);
+        if(Jugando.getDinero()>=950 && Jugando.getTiburones()<5){
+            Jugando.setDinero(Jugando.getDinero()-950);
             Jugando.setTiburones(Jugando.getTiburones()+1);
             moneytienda.setText(Integer.toString((int) Jugando.getDinero()));
             switch(Jugando.getTiburones()){
@@ -530,8 +530,8 @@ public class Escena7Controller implements Initializable{
     @FXML
     private void comprartortuga(ActionEvent event) {
         Jugador Jugando = Jugador.getInstance();    
-        if(Jugando.getDinero()>=100 && Jugando.getTortugas()<5){
-            Jugando.setDinero(Jugando.getDinero()-100);
+        if(Jugando.getDinero()>=80 && Jugando.getTortugas()<5){
+            Jugando.setDinero(Jugando.getDinero()-80);
             Jugando.setTortugas(Jugando.getTortugas()+1);
             moneytienda.setText(Integer.toString((int) Jugando.getDinero()));
             switch(Jugando.getTortugas()){

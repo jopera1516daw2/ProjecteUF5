@@ -36,16 +36,15 @@
          <Label layoutX="77.0" layoutY="14.0" text="Pelicano" GridPane.rowIndex="4" />
          <Label layoutX="77.0" layoutY="14.0" text="Mono" GridPane.rowIndex="2" />
          <Label layoutX="77.0" layoutY="14.0" text="Elefante" GridPane.rowIndex="1" />
-         <Label layoutX="67.0" layoutY="28.0" text="100€" GridPane.columnIndex="4" />
-         <Label text="100€" GridPane.columnIndex="4" GridPane.rowIndex="1" />
-         <Label text="100€" GridPane.columnIndex="4" GridPane.rowIndex="2" />
-         <Label text="100€" GridPane.columnIndex="4" GridPane.rowIndex="2" />
-         <Label text="100€" GridPane.columnIndex="4" GridPane.rowIndex="4" />
-         <Label text="100€" GridPane.columnIndex="4" GridPane.rowIndex="5" />
-         <Label text="100€" GridPane.columnIndex="4" GridPane.rowIndex="6" />
-         <Label text="100€" GridPane.columnIndex="4" GridPane.rowIndex="8" />
-         <Label text="100€" GridPane.columnIndex="4" GridPane.rowIndex="9" />
-         <Label text="100€" GridPane.columnIndex="4" GridPane.rowIndex="10" />
+         <Label layoutX="67.0" layoutY="28.0" text="600€" GridPane.columnIndex="4" />
+         <Label text="800€" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+         <Label text="250€" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+         <Label text="200€" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+         <Label text="125€" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+         <Label text="350€" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+         <Label text="950€" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+         <Label text="80€" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+         <Label text="500€" GridPane.columnIndex="4" GridPane.rowIndex="10" />
         </GridPane>
       <GridPane id="roottiendad" layoutX="284.0" layoutY="26.0" prefHeight="25.0" prefWidth="134.0">
         <columnConstraints>
