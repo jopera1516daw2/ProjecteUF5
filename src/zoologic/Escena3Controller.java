@@ -61,13 +61,16 @@ public class Escena3Controller implements Initializable, Comparable<Jugador>{
     }
     /**
     * mètode utilitzat per fer el comparable
+     * @return 45
     */
     public int getMaximoAnimales(){
         return 45;
     }
     /**
     * mètode comparable, per veure quines llistes d'animals tenen més de 5 animals
+     * @param j indica el Jugador, del que compararme la quantitat d'animals que té
     */
+    @Override
     public int compareTo(Jugador j) {
         if (this.getMaximoAnimales() > j.getAnimales()) return 1;
         else if (this.getMaximoAnimales() < j.getAnimales()) return -1;
@@ -148,13 +151,14 @@ public class Escena3Controller implements Initializable, Comparable<Jugador>{
         a.add(AcuaticosList);
         a.add(VoladoresList);
         Collections.sort(a, new SizeComparator());
-        System.out.println("Tipos de animales que más tienes:");
+        System.out.println("Tipos de animales, ordenados por los que más tienes:");
         for (Animal animal : a)
             System.out.println(animal+" - animales: "+animal.getNum());
 
         int resultado=this.compareTo(Jugando);
         if (resultado==0){
-            System.out.println("¡Felicidades, has conseguido tener todos los animales posibles!");
+            System.out.println("¡Felicidades, has conseguido tener todos los animales posibles y mantenerlos vivos!");
+            System.out.println("¡Has completado el Juego!");
         }else{
             System.out.println("¡Sigue jugando, aún puedes tener más animales!");
         }

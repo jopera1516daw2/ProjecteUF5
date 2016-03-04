@@ -250,8 +250,6 @@ public class Juego extends Application {
                 public void run()
                 {
                     Jugando.setDinero(Jugando.getDinero()+(int)(Math.random()*5+1));
-                    System.out.println(Jugando.getDinero());
-
                 }
             }, 0, 4000);
     }
